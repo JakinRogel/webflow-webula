@@ -1,4 +1,9 @@
 $(document).ready(function(){
+    // Fetch the HTML content
+    $.get("https://cdn.jsdelivr.net/gh/JakinRogel/webflow-webula/crm-form.html", function(data) {
+        // Inject the HTML content into the container
+        $("#htmlContainer").html(data);
+    });
     // Add event listener for form submission
     $('#myForm').submit(function(event) {
         event.preventDefault(); // Prevent form submission
