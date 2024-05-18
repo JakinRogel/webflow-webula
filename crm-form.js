@@ -1,6 +1,6 @@
 $(document).ready(function(){
     // Fetch the HTML content https://cdn.jsdelivr.net/gh/JakinRogel/webflow-webula/crm-form.html
-    $.get("https://raw.githubusercontent.com/JakinRogel/webflow-webula/crm-form.html", function(data) {
+    $.get("https://raw.githubusercontent.com/JakinRogel/webflow-webula/main/crm-form.html", function(data) {
         // Inject the HTML content into the container
         $("#htmlContainer").html(data);
     });
